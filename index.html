@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Country REST API</title>
+    </head>
+    <body class="bg-zinc-900 text-gray-300">
+        <header class="m-5 md:m-10">
+            <h1 class="font-bold text-2xl md:text-3xl">Explore All Countries</h1>
+        </header>
+
+        <main class="m-5 md:m-10">
+            <section>
+                <button onclick="loadCountries()" class="bg-fuchsia-700 py-2 px-5 font-bold rounded-lg shadow-lg shadow-fuchsia-700/40 hover:bg-fuchsia-600 transition duration-300">New Country</button>
+            </section>
+            <section class="my-10">
+                <div id="countries-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
+
+                </div>
+            </section>
+        </main>
+
+
+        <script src="js/country.js"></script>
+    </body>
+</html>
